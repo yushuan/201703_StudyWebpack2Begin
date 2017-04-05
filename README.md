@@ -1,16 +1,26 @@
-﻿範例1:
+﻿範例2:
 ------------------------------------------
-免 load 可以 打包 common js 
- 範例
- 
-npm init
-建立 src\ 目錄
-建立 disc\ 或 build\ 目錄
-npm install --save-dev  套件1 套件2
-修改 package.json 加入 run script
+es2015 (es6) -> es5 語法
+npm install --save-dev  babel-loader babel-core babel-preset-env 
 
-npm run  腳本
+新增
 
-預設 node.js 使用 common js 語法
+.babelrc 設定檔
+{
+ "presets": ["babel-preset-env"]
+}
 
+
+webpack.config.js 內
+新增 babel-loader 處理 .js 檔
+
+  module: {
+     rules: [
+	 {
+	    use: 'babel-loader' ,
+               test: /\.js$/		
+	 }
+    ]
+  }
+  
 ------------------------------------------
