@@ -1,4 +1,4 @@
-# 201703_StudyWebpack2Begin
+範例1:
 
 免 load 可以 打包 common js 
  範例
