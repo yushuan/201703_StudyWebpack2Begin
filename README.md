@@ -1,4 +1,7 @@
-﻿範例4: loader - css 處理1(輸出到css外部檔)
+
+<pre>
+
+範例4: loader - css 處理1(輸出到css外部檔)
 ------------------------------------------
 接續 上個資料
 npm install --save-dev extract-text-webpack-plugin 
@@ -58,3 +61,5 @@ img {
 
 
 ------------------------------------------
+
+</pre>
