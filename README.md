@@ -1,4 +1,7 @@
-﻿範例2:
+
+<pre>
+
+範例2:
 ------------------------------------------
 es2015 (es6) -> es5 語法
 npm install --save-dev  babel-loader babel-core babel-preset-env 
@@ -24,3 +27,5 @@ webpack.config.js 內
   }
   
 ------------------------------------------
+
+</pre>
