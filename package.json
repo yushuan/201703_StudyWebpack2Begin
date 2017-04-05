@@ -1,0 +1,14 @@
+{
+  "name": "testproj",
+  "version": "1.0.0",
+  "description": "test only",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "my name is test",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.2.0"
+  }
+}
