@@ -1,3 +1,6 @@
+#jshint
+.jshintrc
+
 # Logs
 logs
 *.log
