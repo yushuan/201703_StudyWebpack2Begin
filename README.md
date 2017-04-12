@@ -1,4 +1,7 @@
-﻿範例6: Sample6-Es2015(Dynamic import)
+
+<pre>
+
+範例6: Sample6-Es2015(Dynamic import)
 ------------------------------------------
  System.import 載入所需要的 js
 註: 該 import js 檔會被 webpack 自動轉換成編譯後的js
@@ -44,5 +47,6 @@ document.body.appendChild(image2);
   };
 
 ---------------------------------------------------------------
+ 
 
-------------------------------------------
+</pre>
